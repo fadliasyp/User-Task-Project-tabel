@@ -1,0 +1,33 @@
+{
+  "name": "tes-magang-seal",
+  "version": "1.0.0",
+  "description": "tes magang seal",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fadli asyp riansyah",
+  "license": "ISC",
+  "devDependencies": {
+    "bcrypt": "^5.1.1",
+    "prisma": "^6.2.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.2.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "debounce": "^2.2.0",
+    "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.9",
+    "uuid": "^11.0.5",
+    "winston": "^3.17.0"
+  }
+}
